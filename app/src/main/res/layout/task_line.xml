@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="10"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Task Name"
+        android:textSize="20sp"
+        android:layout_weight="9"
+        android:textColor="#3498DB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewEdit"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit"
+        android:layout_weight="0.5"
+        android:background="@null"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewDelete"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="@null"
+        android:src="@drawable/ic_delete" />
+
+</LinearLayout>
